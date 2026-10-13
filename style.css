@@ -27,7 +27,7 @@ a {
 .lower-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     gap: 24px;
 }
 
@@ -84,4 +84,46 @@ a {
     padding: 48px;
     max-height: 250px;
     flex: 0 0 400px;
+}
+
+.info-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    gap: 24px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+    padding: 16px 20% 96px 20%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+
+.info-image {
+    border: 3px solid #3882F6;
+    box-sizing: border-box;
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info p {
+    margin-top: 8px;
+    text-align: center;
 }
